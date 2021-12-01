@@ -4,7 +4,9 @@ using System.Text;
 
 namespace AdventOfCode.Util
 {
-    interface ITextReader
+    public interface ITextReader
     {
+        string[] ReadAllString(string path);
+        int[] ReadAllInt(string path);
     }
 }
