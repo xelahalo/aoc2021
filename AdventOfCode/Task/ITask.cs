@@ -7,6 +7,6 @@ namespace AdventOfCode.Task
     public interface ITask
     {
         string Result { get; set; }
-        void solve();
+        void Solve();
     }
 }

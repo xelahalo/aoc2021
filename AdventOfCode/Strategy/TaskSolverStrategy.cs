@@ -10,7 +10,7 @@ namespace AdventOfCode.Strategy
     {
         public string solve(ITask task)
         {
-            task.solve();
+            task.Solve();
             return task.Result;
         }
     }
