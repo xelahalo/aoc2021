@@ -16,5 +16,10 @@ namespace AdventOfCode.Util
         {
             return File.ReadAllLines(path);
         }
+
+        public char[][] ReadAllCharArray(string path)
+        {
+            return Array.ConvertAll(ReadAllString(path), s => s.ToCharArray());
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace AdventOfCode.Util
     {
         string[] ReadAllString(string path);
         int[] ReadAllInt(string path);
+        char[][] ReadAllCharArray(string path);
     }
 }
