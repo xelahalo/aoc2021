@@ -18,7 +18,7 @@ namespace AdventOfCode.Task.Day3
         public Day3Task1()
         {
             ITextReader textReader = new TextReader();
-            _input = textReader.ReadAllCharArray("../../../Input/day3.txt");
+            _input = textReader.ReadAllCharArray("./Input/day3.txt");
         }
 
         public void Solve()

@@ -18,7 +18,7 @@ namespace AdventOfCode.Task.Day2
         public Day2Task2()
         {
             ITextReader textReader = new TextReader();
-            var raw = textReader.ReadAllString("../../../Input/day2.txt");
+            var raw = textReader.ReadAllString("./Input/day2.txt");
             ProcessInput(raw);
         }
 

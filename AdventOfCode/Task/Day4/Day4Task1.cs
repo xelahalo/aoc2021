@@ -17,7 +17,7 @@ namespace AdventOfCode.Task.Day4
         public Day4Task1()
         {
             ITextReader textReader = new TextReader();
-            _input = textReader.ReadAllString("../../../Input/day4.txt");
+            _input = textReader.ReadAllString("./Input/day4.txt");
             ProcessInput();
         }
 
