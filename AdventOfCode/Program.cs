@@ -22,7 +22,9 @@ namespace AdventOfCode
             // ITask day3task2 = new Day3Task2();
             // ITask day4task1 = new Day4Task1();
             // ITask day4task2 = new Day4Task2();
-            ITask day5task1 = new Day5Task1();
+            // ITask day5task1 = new Day5Task1();
+            // ITask day6task1 = new Day6Task1();
+            ITask day6task2 = new Day6Task2();
 
             //var day1answer1 = strat.solve(day1task1);
             //var day1answer2 = strat.solve(day1task2);
@@ -31,9 +33,11 @@ namespace AdventOfCode
             //var day3answer1 = strat.solve(day3task1);
             //var day3answer2 = strat.solve(day3task2);
             //var day4answer1 = strat.solve(day4task1);
-            var day5answer1 = strat.solve(day5task1);
+            //var day5answer1 = strat.solve(day5task1);
+            // var day6answer1 = strat.solve(day6task1);
+            var day6answer2 = strat.solve(day6task2);
 
-            Console.WriteLine(day5answer1);
+            Console.WriteLine(day6answer2);
             Console.ReadKey();
         }
     }
